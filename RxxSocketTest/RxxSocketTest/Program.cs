@@ -47,7 +47,7 @@ namespace RxxSocketTest
                     else totalServer.OnCompleted();
                 });
             
-            var oneMegabit = 1048576;
+            var oneMega = 1048576;
 
             totalServer
                 .SubscribeOn(NewThreadScheduler.Default)
@@ -55,7 +55,7 @@ namespace RxxSocketTest
                 .Subscribe(x =>
                     {
                         x.SubscribeOn(ThreadPoolScheduler.Instance).Aggregate((seed, incr) => seed + incr)
-                            .Subscribe(sum => Console.WriteLine("server speed: {0}", sum/oneMegabit));
+                            .Subscribe(sum => Console.WriteLine("server speed: {0}", sum/oneMega));
                     });
 
             Console.ReadLine();
