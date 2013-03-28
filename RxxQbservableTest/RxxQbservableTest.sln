@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxxQbservableTest", "RxxQbservableTest\RxxQbservableTest.csproj", "{62F3982D-2B5D-48F7-938C-C156299E8BD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxxQbservableTest.Client", "RxxQbservableTest.Client\RxxQbservableTest.Client.csproj", "{A99D4544-271A-4672-BF0E-CB635ACAB8EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62F3982D-2B5D-48F7-938C-C156299E8BD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62F3982D-2B5D-48F7-938C-C156299E8BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62F3982D-2B5D-48F7-938C-C156299E8BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62F3982D-2B5D-48F7-938C-C156299E8BD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A99D4544-271A-4672-BF0E-CB635ACAB8EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99D4544-271A-4672-BF0E-CB635ACAB8EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99D4544-271A-4672-BF0E-CB635ACAB8EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99D4544-271A-4672-BF0E-CB635ACAB8EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
