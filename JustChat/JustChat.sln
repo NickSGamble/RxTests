@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustChat", "JustChat\JustChat.csproj", "{610D5C23-31AD-49CB-9EB8-718D5F6E28C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{610D5C23-31AD-49CB-9EB8-718D5F6E28C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{610D5C23-31AD-49CB-9EB8-718D5F6E28C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{610D5C23-31AD-49CB-9EB8-718D5F6E28C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{610D5C23-31AD-49CB-9EB8-718D5F6E28C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
